@@ -1,0 +1,963 @@
+Script started on Tue Nov 29 20:26:33 2016
+uhx01% ls
+database.txt  getfunc.cpp   llist.cpp     llist.h       Makefile      output.txt    project2.cpp  record.h
+uhx01% make
+g++ -c -Wall project2.cpp
+g++ -c -Wall getfunc.cpp
+g++ -c -Wall llist.cpp
+g++ -o project2 project2.o getfunc.o llist.o
+uhx01% ./project2
+
+Database successfully opened/read!
+You record has been successfully added to the database!
+You record has been successfully added to the database!
+You record has been successfully added to the database!
+You record has been successfully added to the database!
+
+***********************************************************************
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+4
+
+***********************************************************************
+You have chosen to print all the information in the database!
+
+
+The account number of the current record is: 1
+The name of the current record is: 
+The address of the current record is: Sae
+579 Sierra Drive
+Honolulu Hawaii 96286
+The year of birth of the current reord is: 2006
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 1
+The name of the current record is: 
+The address of the current record is: Sae
+579 Sierra Drive
+Honolulu Hawaii 96286
+The year of birth of the current reord is: 2006
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 4
+The name of the current record is: 
+The address of the current record is: Hye JOo song
+813 Coolidge Street
+Honolulu Hawaii 96826
+The year of birth of the current reord is: 1997
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 2
+The name of the current record is: 
+The address of the current record is: Eun Ho Song
+337 Coolidge Street
+Honolulu Hawaii 96816
+The year of birth of the current reord is: 1968
+
+All of the records have been successfully printed! Thank you!
+
+***********************************************************************
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+1
+
+***********************************************************************
+You have chosen to add a new record!
+
+Please enter your account number: 
+4
+
+Please enter your name: 
+Sae y Hyun Song
+
+Please enter your address, type '!' when you are finished entering your address: 
+3778 Sierra Drie ve
+Honoy lulu Hi
+96826!
+
+Finally please enter your year of birth to complete adding a record: 
+1994
+
+You record has been successfully added to the database!
+
+***********************************************************************
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+4
+
+***********************************************************************
+You have chosen to print all the information in the database!
+
+
+The account number of the current record is: 1
+The name of the current record is: 
+The address of the current record is: Sae
+579 Sierra Drive
+Honolulu Hawaii 96286
+The year of birth of the current reord is: 2006
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 1
+The name of the current record is: 
+The address of the current record is: Sae
+579 Sierra Drive
+Honolulu Hawaii 96286
+The year of birth of the current reord is: 2006
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 4
+The name of the current record is: 
+The address of the current record is: Hye JOo song
+813 Coolidge Street
+Honolulu Hawaii 96826
+The year of birth of the current reord is: 1997
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 4
+The name of the current record is: Sae Hyun Song
+The address of the current record is: 3778 Sierra Drive
+Honolulu Hi
+96826
+The year of birth of the current reord is: 1994
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 2
+The name of the current record is: 
+The address of the current record is: Eun Ho Song
+337 Coolidge Street
+Honolulu Hawaii 96816
+The year of birth of the current reord is: 1968
+
+All of the records have been successfully printed! Thank you!
+
+***********************************************************************
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+2
+
+***********************************************************************
+You have chosen to modify a record in the database!
+
+Please enter your account number: 
+1
+
+Please enter your new address, type '!' when you are finished entering your address: 
+579 Lauki  iki Street
+ono   Honolu l ulu Hawaii, 96826!
+
+Number of records successfully modified: 2
+
+***********************************************************************
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+4
+
+***********************************************************************
+You have chosen to print all the information in the database!
+
+
+The account number of the current record is: 1
+The name of the current record is: 
+The address of the current record is: 579 Lauiki Street
+Honolulu Hawaii, 96826
+The year of birth of the current reord is: 2006
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 1
+The name of the current record is: 
+The address of the current record is: 579 Lauiki Street
+Honolulu Hawaii, 96826
+The year of birth of the current reord is: 2006
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 4
+The name of the current record is: 
+The address of the current record is: Hye JOo song
+813 Coolidge Street
+Honolulu Hawaii 96826
+The year of birth of the current reord is: 1997
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 4
+The name of the current record is: Sae Hyun Song
+The address of the current record is: 3778 Sierra Drive
+Honolulu Hi
+96826
+The year of birth of the current reord is: 1994
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 2
+The name of the current record is: 
+The address of the current record is: Eun Ho Song
+337 Coolidge Street
+Honolulu Hawaii 96816
+The year of birth of the current reord is: 1968
+
+All of the records have been successfully printed! Thank you!
+
+***********************************************************************
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+3
+
+***********************************************************************
+You have chosen to print information about a record!
+
+Please enter your account number: 
+1
+
+The item exists in the database!
+The account number of the chosen record is: 1
+The name of the chosen record is 
+The address of the chosen record is: 579 Lauiki Street
+Honolulu Hawaii, 96826
+The year of birth of the chosen record is: 2006
+
+The item exists in the database!
+The account number of the chosen record is: 1
+The name of the chosen record is 
+The address of the chosen record is: 579 Lauiki Street
+Honolulu Hawaii, 96826
+The year of birth of the chosen record is: 2006
+
+Number of records successfully printed: 2
+
+***********************************************************************
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+5
+
+***********************************************************************
+You have chosen to delete an existing record in the database!
+
+Please enter your account number: 
+1
+
+***********************************************************************
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+4
+
+***********************************************************************
+You have chosen to print all the information in the database!
+
+
+The account number of the current record is: 4
+The name of the current record is: 
+The address of the current record is: Hye JOo song
+813 Coolidge Street
+Honolulu Hawaii 96826
+The year of birth of the current reord is: 1997
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 4
+The name of the current record is: Sae Hyun Song
+The address of the current record is: 3778 Sierra Drive
+Honolulu Hi
+96826
+The year of birth of the current reord is: 1994
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 2
+The name of the current record is: 
+The address of the current record is: Eun Ho Song
+337 Coolidge Street
+Honolulu Hawaii 96816
+The year of birth of the current reord is: 1968
+
+All of the records have been successfully printed! Thank you!
+
+***********************************************************************
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+6
+
+***********************************************************************
+You have chosen to reverse the database recursively!
+
+
+***********************************************************************
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+4
+
+***********************************************************************
+You have chosen to print all the information in the database!
+
+
+The account number of the current record is: 2
+The name of the current record is: 
+The address of the current record is: Eun Ho Song
+337 Coolidge Street
+Honolulu Hawaii 96816
+The year of birth of the current reord is: 1968
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 4
+The name of the current record is: Sae Hyun Song
+The address of the current record is: 3778 Sierra Drive
+Honolulu Hi
+96826
+The year of birth of the current reord is: 1994
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 4
+The name of the current record is: 
+The address of the current record is: Hye JOo song
+813 Coolidge Street
+Honolulu Hawaii 96826
+The year of birth of the current reord is: 1997
+
+All of the records have been successfully printed! Thank you!
+
+***********************************************************************
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+6
+
+***********************************************************************
+You have chosen to reverse the database recursively!
+
+
+***********************************************************************
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+4
+
+***********************************************************************
+You have chosen to print all the information in the database!
+
+
+The account number of the current record is: 4
+The name of the current record is: 
+The address of the current record is: Hye JOo song
+813 Coolidge Street
+Honolulu Hawaii 96826
+The year of birth of the current reord is: 1997
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 4
+The name of the current record is: Sae Hyun Song
+The address of the current record is: 3778 Sierra Drive
+Honolulu Hi
+96826
+The year of birth of the current reord is: 1994
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 2
+The name of the current record is: 
+The address of the current record is: Eun Ho Song
+337 Coolidge Street
+Honolulu Hawaii 96816
+The year of birth of the current reord is: 1968
+
+All of the records have been successfully printed! Thank you!
+
+***********************************************************************
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+5
+
+***********************************************************************
+You have chosen to delete an existing record in the database!
+
+Please enter your account number: 
+2
+
+***********************************************************************
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+4
+
+***********************************************************************
+You have chosen to print all the information in the database!
+
+
+The account number of the current record is: 4
+The name of the current record is: 
+The address of the current record is: Hye JOo song
+813 Coolidge Street
+Honolulu Hawaii 96826
+The year of birth of the current reord is: 1997
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 4
+The name of the current record is: Sae Hyun Song
+The address of the current record is: 3778 Sierra Drive
+Honolulu Hi
+96826
+The year of birth of the current reord is: 1994
+
+All of the records have been successfully printed! Thank you!
+
+***********************************************************************
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+7
+
+***********************************************************************
+You have chosen to quit the program!
+
+Records have been successfully written to the database.txt file!
+
+uhx01% make clear
+rm -rf *o project2 
+uhx01% make proj2debug
+g++ -DDEBUGMODE -c -Wall project2.cpp
+g++ -DDEBUGMODE -c -Wall getfunc.cpp
+g++ -DDEBUGMODE -c -Wall llist.cpp
+g++ -DDEBUGMODE -o project2debug project2.o getfunc.o llist.o
+uhx01% ./project2debug
+
+**DEBUGMODE** CONTRUCTOR CALLED: llist() **DEBUGMODE**
+**DEBUGMODE** NO PARAMETERS **DEBUGMODE**
+
+
+**DEBUGMODE** FUNCTION CALLED: readfile() **DEBUGMODE**
+**DEBUGMODE** NO PARAMETERS **DEBUGMODE**
+
+
+Database successfully opened/read!
+
+**DEBUGMODE** FUNCTION CALLED: addRecord **DEBUGMODE**
+**DEBUGMODE** INT PARAMETER = 4 **DEBUGMODE**
+**DEBUGMODE** STRING PARAMETER =  **DEBUGMODE**
+**DEBUGMODE** STRING PARAMETER = Hye JOo song
+813 Coolidge Street
+Honolulu Hawaii 96826 **DEBUGMODE**
+**DEBUGMODE** INT PARAMETER = 1997 **DEBUGMODE**
+
+You record has been successfully added to the database!
+
+**DEBUGMODE** FUNCTION CALLED: addRecord **DEBUGMODE**
+**DEBUGMODE** INT PARAMETER = 4 **DEBUGMODE**
+**DEBUGMODE** STRING PARAMETER = Sae Hyun Song **DEBUGMODE**
+**DEBUGMODE** STRING PARAMETER = 3778 Sierra Drive
+Honolulu Hi
+96826 **DEBUGMODE**
+**DEBUGMODE** INT PARAMETER = 1994 **DEBUGMODE**
+
+You record has been successfully added to the database!
+
+***********************************************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~DEBUG MODE ACTIVATED~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+1
+
+***********************************************************************
+You have chosen to add a new record!
+
+Please enter your account number: 
+
+**DEBUGMODE** FUNCTION CALLED: getaccountnum() **DEBUGMODE**
+**DEBUGMODE** NO PARAMETERS **DEBUGMODE**
+
+1
+
+Please enter your name: 
+1
+
+Please enter your address, type '!' when you are finished entering your address: 
+1!
+
+Finally please enter your year of birth to complete adding a record: 
+
+**DEBUGMODE** FUNCTION CALLED: getyearofbirth() **DEBUGMODE**
+**DEBUGMODE** NO PARAMETERS **DEBUGMODE**
+
+1
+
+
+**DEBUGMODE** FUNCTION CALLED: addRecord **DEBUGMODE**
+**DEBUGMODE** INT PARAMETER = 1 **DEBUGMODE**
+**DEBUGMODE** STRING PARAMETER = 1 **DEBUGMODE**
+**DEBUGMODE** STRING PARAMETER = 1 **DEBUGMODE**
+**DEBUGMODE** INT PARAMETER = 1 **DEBUGMODE**
+
+You record has been successfully added to the database!
+
+***********************************************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~DEBUG MODE ACTIVATED~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+4
+
+***********************************************************************
+You have chosen to print all the information in the database!
+
+**DEBUGMODE** OPERATOR OVERLOAD FUNCTION CALLED **DEBUGMODE**
+**DEBUGMODE** OSTREAM PARAMETER = cout **DEBUGMODE**
+**DEBUGMODE** LLIST PARAMETER = list **DEBUGMODE**
+
+The account number of the current record is: 4
+The name of the current record is: 
+The address of the current record is: Hye JOo song
+813 Coolidge Street
+Honolulu Hawaii 96826
+The year of birth of the current reord is: 1997
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 4
+The name of the current record is: Sae Hyun Song
+The address of the current record is: 3778 Sierra Drive
+Honolulu Hi
+96826
+The year of birth of the current reord is: 1994
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 1
+The name of the current record is: 1
+The address of the current record is: 1
+The year of birth of the current reord is: 1
+
+All of the records have been successfully printed! Thank you!
+
+***********************************************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~DEBUG MODE ACTIVATED~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+2
+
+***********************************************************************
+You have chosen to modify a record in the database!
+
+Please enter your account number: 
+
+**DEBUGMODE** FUNCTION CALLED: getaccountnum() **DEBUGMODE**
+**DEBUGMODE** NO PARAMETERS **DEBUGMODE**
+
+5
+
+Please enter your new address, type '!' when you are finished entering your address: 
+! 1!
+
+
+**DEBUGMODE** FUNCTION CALLED: modifyRecord **DEBUGMODE**
+**DEBUGMODE** INT PARAMETER = 5 **DEBUGMODE**
+**DEBUGMODE** STRING PARAMETER = 1 **DEBUGMODE**
+
+The account number does not exist in the database!
+
+***********************************************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~DEBUG MODE ACTIVATED~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+4
+
+***********************************************************************
+You have chosen to print all the information in the database!
+
+**DEBUGMODE** OPERATOR OVERLOAD FUNCTION CALLED **DEBUGMODE**
+**DEBUGMODE** OSTREAM PARAMETER = cout **DEBUGMODE**
+**DEBUGMODE** LLIST PARAMETER = list **DEBUGMODE**
+
+The account number of the current record is: 4
+The name of the current record is: 
+The address of the current record is: Hye JOo song
+813 Coolidge Street
+Honolulu Hawaii 96826
+The year of birth of the current reord is: 1997
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 4
+The name of the current record is: Sae Hyun Song
+The address of the current record is: 3778 Sierra Drive
+Honolulu Hi
+96826
+The year of birth of the current reord is: 1994
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 1
+The name of the current record is: 1
+The address of the current record is: 1
+The year of birth of the current reord is: 1
+
+All of the records have been successfully printed! Thank you!
+
+***********************************************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~DEBUG MODE ACTIVATED~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+5
+
+***********************************************************************
+You have chosen to delete an existing record in the database!
+
+Please enter your account number: 
+
+**DEBUGMODE** FUNCTION CALLED: getaccountnum() **DEBUGMODE**
+**DEBUGMODE** NO PARAMETERS **DEBUGMODE**
+
+10
+
+**DEBUGMODE** FUNCTION CALLED: deleteRecord **DEBUGMODE**
+**DEBUGMODE** INT PARAMETER = 10 **DEBUGMODE**
+
+
+***********************************************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~DEBUG MODE ACTIVATED~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+4
+
+***********************************************************************
+You have chosen to print all the information in the database!
+
+**DEBUGMODE** OPERATOR OVERLOAD FUNCTION CALLED **DEBUGMODE**
+**DEBUGMODE** OSTREAM PARAMETER = cout **DEBUGMODE**
+**DEBUGMODE** LLIST PARAMETER = list **DEBUGMODE**
+
+The account number of the current record is: 4
+The name of the current record is: 
+The address of the current record is: Hye JOo song
+813 Coolidge Street
+Honolulu Hawaii 96826
+The year of birth of the current reord is: 1997
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 4
+The name of the current record is: Sae Hyun Song
+The address of the current record is: 3778 Sierra Drive
+Honolulu Hi
+96826
+The year of birth of the current reord is: 1994
+
+All of the records have been successfully printed! Thank you!
+
+The account number of the current record is: 1
+The name of the current record is: 1
+The address of the current record is: 1
+The year of birth of the current reord is: 1
+
+All of the records have been successfully printed! Thank you!
+
+***********************************************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~DEBUG MODE ACTIVATED~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+6
+
+***********************************************************************
+You have chosen to reverse the database recursively!
+
+
+**DEBUGMODE** FUNCTION CALLED: reverse() **DEBUGMODE**
+**DEBUGMODE** NO PARAMETERS **DEBUGMODE**
+
+
+**DEBUGMODE** FUNCTION CALLED: reverse **DEBUGMODE**
+**DEBUGMODE** STRUCT RECORD PARAMETER = 0x28e08 **DEBUGMODE**
+
+
+***********************************************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~DEBUG MODE ACTIVATED~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+6
+
+***********************************************************************
+You have chosen to reverse the database recursively!
+
+
+**DEBUGMODE** FUNCTION CALLED: reverse() **DEBUGMODE**
+**DEBUGMODE** NO PARAMETERS **DEBUGMODE**
+
+
+**DEBUGMODE** FUNCTION CALLED: reverse **DEBUGMODE**
+**DEBUGMODE** STRUCT RECORD PARAMETER = 0x28e48 **DEBUGMODE**
+
+
+***********************************************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~DEBUG MODE ACTIVATED~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Welcome! What would you like to do today?
+
+1 => Add a new record in the database.
+2 => Modify a record in the database.
+3 => Print information about a record.
+4 => Print all information in the database.
+5 => Delete an existing record in the database.
+6 => Reverse the order of the database! (Recursively)
+7 => Quit the program.
+
+Please enter the corresponding number to the option given (1~7): 
+7
+
+***********************************************************************
+You have chosen to quit the program!
+
+
+**DEBUGMODE** DESTRUCTOR CALLED: ~llist() **DEBUGMODE**
+**DEBUGMODE** NO PARAMETERS **DEBUGMODE**
+
+
+**DEBUGMODE** FUNCTION CALLED: writefile **DEBUGMODE**
+**DEBUGMODE** NO PARAMETERS **DEBUGMODE**
+
+Records have been successfully written to the database.txt file!
+
+uhx01% ls
+database.txt   getfunc.cpp    getfunc.o      llist.cpp      llist.h        llist.o        Makefile       output.txt     project2.cpp   project2debug  project2.o     record.h
+uhx01% mkae cl      ake clear
+rm -rf *o project2 
+uhx01% make Dclear
+rm -rf *o project2debug 
+uhx01% ls
+database.txt  getfunc.cpp   llist.cpp     llist.h       Makefile      output.txt    project2.cpp  record.h
+uhx01% exit
+uhx01% 
+script done on Tue Nov 29 20:30:35 2016
