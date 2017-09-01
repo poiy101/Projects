@@ -1,0 +1,8 @@
+sae 0
+raven 0
+sae 0
+sae 0
+sae 0
+jack 0
+raven 0
+dog 0
